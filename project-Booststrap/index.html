@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- 
+			<link href="bootstrap-5.2.0-dist/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+	 	-->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/style.css">
+		<meta charset="UTF-8">
+		<title>Relax Leaf</title>
+		<style type="text/css">
+			@media all{
+				.navbar .nav-item .dropdown-menu{ display: none; }
+				.navbar .nav-item:hover .nav-link{   }
+				.navbar .nav-item:hover .dropdown-menu{ display: block; }
+				.navbar .nav-item .dropdown-menu{ margin-top:0; }
+			}
+			.navbar-inverse .navbar-nav>li>a{
+				color:green;
+			}
+		</style>
+	</head>
+	<body id="main">
+		<header>
+			<a href="home.html" target="content" class="text-center text-success"><h1>Relax Leaf</h1></a>
+			<div class="text-center">
+				<nav class="navbar navbar-inverse text-center" role = "navigation">
+
+					<div class="text-center">
+				      <ul class="nav navbar-nav text-center">
+				        <li class="nav-item"><a href="home.html" target="content" class="navbar-brand text-success">Rleax Leaf</a></li>
+				        <li class="nav-item dropdown">
+					        <a class="nav-link  dropdown-toggle" data-bs-toggle="dropdown" href = "about/about.html" target="content">About Us</a>
+						    <ul class="dropdown-menu">
+							  <li><a href="about/history.html" target="content">History</a></li>
+							  <li><a href="about/staff.html" target="content">Staff</a></li>
+						    </ul>
+				    	</li>
+				        <li class="nav-item"><a href="mission.html" target="content">Mission</a></li>
+				        <li class="nav-item dropdown">
+				        	<a class="nav-link  dropdown-toggle" data-bs-toggle="dropdown" href = "products/products.html" target="content">Products</a>
+						    <ul class="dropdown-menu">
+							  <li><a href="products/flowers.html" target="content">Flowers</a></li>
+							  <li><a href="products/alimentation.html" target="content">Alimentation</a></li>
+							  <li><a href="products/oils.html" target="content">Oils</a></li>
+							  <li><a href="products/infusions.html" target="content">Infusions</a></li>
+						    </ul>
+				        </li>
+				        <li class="nav-item"><a href="photoGallery.html" target="content">Photo Gallery</a></li>
+				        <li class="nav-item"><a href="contact.html" target="content">Contact</a></li>
+				      </ul>
+				    </div>
+					
+				</nav>
+			</div>
+		</header>
+		<div class="embed-responsive embed-responsive-4by3">
+			<iframe
+				name="content"
+			    src="home.html"
+			    class="embed-responsive-item">
+			</iframe>
+		</div>
+		
+		<footer class="text-center">Copyright 2022</footer>
+	</body>
+</html>
